@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo">
+      <img src="./images/logo.png" alt="" />
+    </div>
+
+    <div id="box1">
+      <h1>The Best Craft Beer in Spain!</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam fuga,
+        provident nesciunt excepturi!
+      </p>
+    </div>
+
+    <div id="box2">
+      <h2>Make a reservation</h2>
+      <p>Lorem ipsum dolor, sit consectetur adipisicing</p>
+
+      <form action="https://formspree.io/f/mlezkapg" method="POST">
+        <label for="name">YOUR NAME</label>
+        <input type="text" id="name" placeholder="John B.Goode" />
+
+        <label for="email">YOUR EMAIL</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="John B.Goode"
+        />
+
+        <label for="time">RESERVATION TIME</label>
+        <input type="datetime-local" name="res" id="time" />
+
+        <input id="btn" type="submit" value="Reserve Now" />
+      </form>
+    </div>
+  </body>
+</html>
